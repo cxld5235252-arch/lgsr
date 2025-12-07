@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python inference_resshift.py -i /data/datasets/cxl/oppo_datasets/data_rewite_fusion_laplacian/color_1/test/wide_1024 -o rewite_tele_warp_0308_box5
+# CUDA_VISIBLE_DEVICES=0 python inference_resshift.py -i /data/datasets/cxl/oppo_datasets/data_oppo72/wide_1024 -o oppo72_mask_0218

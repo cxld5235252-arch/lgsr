@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python inference_resshift.py -i /home/zkyd/cxl/code/paper/Resshift_mae/data/test/wide_1024 -o /home/zkyd/cxl/code/paper/ResShift_train/cf_1028

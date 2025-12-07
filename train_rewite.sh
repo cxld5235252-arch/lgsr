@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --cfg_path ./configs/ref_sr_rewite_mask.yaml

@@ -13,11 +13,12 @@ pip install -r requirements.txt
 
 ## Visualize Input W and Input T
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cxld5235252-arch/LAFusion/main/result/284_wide.png" alt="图1" style="display:inline-block; margin-right:10px;">
-  <img src="https://raw.githubusercontent.com/cxld5235252-arch/LAFusion/main/result/284_tele.png" alt="图2" style="display:inline-block;">
+  <img src="https://raw.githubusercontent.com/cxld5235252-arch/LAFusion/main/result/284_wide.png" alt="图1" width="45%" style="display:inline-block; margin-right:10px;">
+  <img src="https://raw.githubusercontent.com/cxld5235252-arch/LAFusion/main/result/284_tele.png" alt="图2" width="45%" style="display:inline-block;">
 </p>
 
 <p align="center"><b>图 1：左为广角图，右为长焦图</b></p>
+
 
 
 ## Test our LAFusion network

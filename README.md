@@ -15,14 +15,13 @@ pip install -r requirements.txt
 
 Run the following command to test our LAFusion network. Results are saved in the `[result_dir]` folder.
 ```
-python inference_LAF.py -i [wide_dir] -o [result_dir]
+CUDA_VISIBLE_DEVICES=0 python inference_LAFusion.py -i ./data/wide_tile -o [result_dir]
 ```
 
-## data
-Prepare data.
-```
-gt_root: LAFusion/data_new_gt_0925/train/gt_y_128
-lq_root: LAFusion/data_new_gt_0925/train/wide_y_128
-tele_root: LAFusion/data_new_gt_0925/train/ref_y_128
-```
+## Merge tile to full result
+'''
+python /data/cxl/cxl_oppo/github/LGSR/merge_tile.py
+'''
+
+## Visualize the result 
 

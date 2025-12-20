@@ -5,7 +5,7 @@ model:
   target: models.unet.UNetModelSwin
   # ckpt_path: /home/zkyd/cxl/code/paper/Resshift_vqgan_origin_mask/save_dir/full_mask/ckpts/unet_model.pth
   # ckpt_path: /data/cxl/code/Resshift_vqgan_origin_mask/save_dir/2025-06-08-02-22/ckpts/unet_model.pth
-  ckpt_path: ./ckpt/unet_model.pth
+  ckpt_path: ./ckpt/LAFusion.pth
   params:
     image_size: 128
     in_channels: 3
@@ -51,8 +51,7 @@ diffusion:
 
 autoencoder:
   target: ldm.models.autoencoder.VQModelTorch
-  ckpt_path: ./weights/autoencoder_vq_f4.pth
-  use_fp16: True
+  ckpt_path: ./ckpt/vqvae.pth
   params:
     embed_dim: 3
     n_embed: 8192
